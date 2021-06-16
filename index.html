@@ -26,31 +26,66 @@
         </header>
             <div class="banner">
                 <h1>Cheatsheet</h1>
-                <div class="others">
+                <div class="others d-flex justify-content-between">
                     <div class="print">
                         <p>Print this cheatsheet</p>
                     </div>
-                    <i class="fab fa-twitter icons"></i>
-                    <i class="fab fa-instagram icons"></i>
-                    <i class="fab fa-facebook icons"></i>
+                    <div class="contact">
+                      <i class="fab fa-twitter icons"></i>
+                      <i class="fab fa-instagram icons"></i>
+                      <i class="fab fa-facebook icons"></i>
+                  </div>
                 </div>
             </div>
-            <main>
-                <section>
+<p>
+            <main class="main d-flex justify-content-between">
+
+              <div class="d-flex flex-column" id="accordion">
+                <div class="html">
+                  <div class="" id="headingOne">
                     <h3>HTML</h3>
-                    <article></article>
-                </section>
-                <section>
+                    <h5 class="mb-0">
+                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                       aria-expanded="true" aria-controls="collapseOne">Expand
+                       </button>
+                    </h5>
+                  </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+  </div>
+
+                <div class="css">
+                  <div class="" id="headingOne">
                     <h3>CSS</h3>
-                    <article></article>
-                </section>
-                <section>
-                    <h3>Additional resources</h3>
-                    <article></article>
-                </section>
-                <aside>
+                    <h5 class="mb-0">
+                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                       aria-expanded="true" aria-controls="collapseOne">Expand
+                       </button>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="resources">
+                  <div class="" id="headingOne">
+                    <h3>Resources</h3>
+                    <h5 class="mb-0">
+                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                       aria-expanded="true" aria-controls="collapseOne">Expand
+                       </button>
+                    </h5>
+                  </div>
+                </div>
+
+              </div>
+
+
+                <div class="aside">
                     <h3>Topics</h3>
-                </aside>
+                </div>
         </main> 
     </div>
     <footer>Made with ❤️ </footer>
