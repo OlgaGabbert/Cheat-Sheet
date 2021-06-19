@@ -22,6 +22,11 @@ body {
 
 .topics {
     display: inline-block;
+    text-decoration: none;
+}
+
+.topics a {
+    text-decoration: none !important;
 }
 
 main { 
@@ -61,3 +66,8 @@ h1 {
 header {
     background-color: #9DB4C0;
 }
+
+a.topics:link {
+      text-decoration: none !important;
+      color: white !important;
+ }
